@@ -2,7 +2,7 @@ Create a FORK of this repository to store your code, data, and documentation for
 
 Even though your fork of this repository shall remain public, you'll still need to explicitly add any students on your team as Collaborators in the Settings. That way you can grant them write privileges.
 
-DELETE the lines from TEMPLATE up.
+
 
 TEMPLATE for your report:
 
