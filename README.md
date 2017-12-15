@@ -24,7 +24,7 @@ We are trying to put risk in an investment in a single value (VaR) by simulating
 
 Startprice: It is the initial value of the stock before any market movements.
 
-trials: We are trying to categorize results based on number of times the simalation is performed and analyze the value of VaR accordingly.
+trials: We are trying to categorize results based on number of times the simulations is performed and analyze the value of VaR accordingly.
 
 
 # Sources Used:
