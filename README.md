@@ -37,7 +37,7 @@ Monte_Carlo file
 
 4. The crytp currencies used in this project are: Bitcoin, Litecoin, Bitcoin Cash, Ethereum, IOTA, Ripple and Dash Coin.
 
-5. Also optimized the code in terms of time complexity and reduced the 40 seconds of time our code took before optimization to 29 seconds. 
+5. We also optimized the code in terms of time complexity and reduced the 40 seconds of time our code took before optimization to 29 seconds. 
 
 # Simulation's variables of uncertainty
 
