@@ -1,6 +1,6 @@
 
 # Title:
-Estimating crypto currency value for the next 2 years using monte carlo simulation.
+Estimating crypto currency value using monte carlo simulation.
 
 # Team Member(s):
 Himanshu Pareek
