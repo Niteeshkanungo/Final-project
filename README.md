@@ -13,19 +13,39 @@ Niteesh Kanungo
 
 In this project we are using a Monte Carlo simulation to look at the potential evolution of crypto currency prices over time. we have simulated random walk to estimate the value of the crypto currency. 
 
-Our purpose is to analyze how volatile different crypto currencies are and to estimate 
+Our purpose is to analyze how volatile different crypto currencies are and to estimate their prices over the next year. 
 
-We will be using a Monte Carlo simulation to look at the potential evolution of asset prices over time, assuming they are subject to daily returns that follow a normal distribution (n.b. as we know, asset price returns usually follow a distribution that is more leptokurtic (fat tailed) than a normal distribution, but a normal distribution is often assumed for these kind of purposes). This type of price evolution is also known as a “random walk”.
+# Project at a glance
 
-We are trying to put risk in an investment in a single value (VaR) by simulating random market conditions and calculating loss for each market condition and then aggragating the results to establish a profile of the market's risk.
+Analysis_crypto file
 
+1. We started with collecting last years data from yahoo and stored every crpto currency data into a csv file.
+
+2. Testing the stored data by checking daily returns and calculating annual compound growth rate and volatility for each crpto currency.
+
+3. Visualizing the growth of each crypto currency using line graph over the period of one year.
+
+4. Visualizing stock daily returns for each crypto currency.
+
+Monte_Carlo file
+
+1. Defined Monte_Carlo_Sim function to generate monte carlo simulation, which generates random numbers with geometric brownian motion.
+
+2. Performed 1000 simulations on each crypto currency and generated returns over investment plots for the year 2018.
+
+3. Calculated investment value, 5% quantile, median value and 95% quantile for each crypto currency with the estimated highest return in Bitcoin (BTC).
+
+4. The crytp currencies used in this project are: Bitcoin, Litecoin, Bitcoin Cash, Ethereum, IOTA, Ripple and Dash Coin.
+
+5. Also optimized the code in terms of time complexity and reduced the 40 seconds of time our code took before optimization to 29 seconds. 
 
 # Simulation's variables of uncertainty
 
-Startprice: It is the initial value of the stock before any market movements.
+trials: We have tried to perform 1000 trials to get more accurate results, however the number of trials someone chooses is uncertain.
 
-trials: We are trying to categorize results based on number of times the simulations is performed and analyze the value of VaR accordingly.
+mu: mu or compound annual growth rate is calcaulated based on the data provided by yahoo.
 
+sigma: The measure of Annual volatility of returns in a given period of time.
 
 # Sources Used:
 https://www.investopedia.com/articles/07/montecarlo.asp
